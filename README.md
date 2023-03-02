@@ -19,3 +19,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 @import "~font-awesome/css/font-awesome.min.css";
 ...
 ```
+
+1. Add component products
