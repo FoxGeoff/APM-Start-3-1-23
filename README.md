@@ -7,3 +7,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Revision 3-1-2023
 2. Check list: <https://app.pluralsight.com/course-player?clipId=dda8d63d-d942-404c-93b8-f6cfc342a309>
 3. Something went wrong <https://app.pluralsight.com/course-player?clipId=17a0d977-4b3f-430a-ad00-3495ecfdece9>
+
+### Task: Add Bootstrap and font-awswome
