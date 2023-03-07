@@ -27,3 +27,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Kanabn Task: Data Binding & Pipes
 
 1. Video Ref:    <https://app.pluralsight.com/course-player?clipId=b92b7bcf-9d4c-4ac2-8e6a-ee728e49f1d4>
+
+Examples, property binding one way component>template:
+
+```html
+<img [src]='product.imageUrl'>
+<img src={{product.imageUrl}}>
+<input type='text' [disabled]='isDisabled'>
+<img src='http://myImage.org/{{productImage.Url}}'>
+```

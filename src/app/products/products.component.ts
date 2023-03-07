@@ -17,7 +17,7 @@ export class ProductsComponent implements OnInit {
   pageTitle = 'Product List';
   imageWidth = 50;
   imageMargin = 2;
-  showImage = false;
+  showImage = true;
   errorMessage = '';
   sub!: Subscription;
 
