@@ -16,7 +16,7 @@
     </div>
     <div class="table-responsive">
       <!-- TODO: Update ngIf  -->
-      <table class="table" *ngIf="!products.length">
+      <table class="table" *ngIf="products.length">
         <thead>
           <tr>
             <th>
@@ -33,7 +33,7 @@
         </thead>
 
         <tbody>
-         <!-- <tr *ngFor="let product of filteredProducts">
+          <tr *ngFor="let product of filteredProducts">
             <td>
               <img
                 *ngIf="showImage"
@@ -44,19 +44,28 @@
               />
             </td>
             <td>
+              {{ product.productName }}
+              <!--
               <a [routerLink]="['/products', product.productId]">
                 {{ product.productName }}
               </a>
+              -->
             </td>
+            <td>{{ product.productCode | lowercase }}</td>
+            <!--
             <td>{{ product.productCode | lowercase | convertToSpaces:'-' }}</td>
+            -->
             <td>{{ product.releaseDate }}</td>
-            <td>{{ product.price | currency:'USD':'symbol':'1.2-2' }}</td>
+            <td>{{ product.price | currency : "USD" : "symbol" : "1.2-2" }}</td>
             <td>
+              {{ product.starRating }}
+              <!--
               <pm-star [rating]='product.starRating'
                        (ratingClicked)='onRatingClicked($event)'>
               </pm-star>
+              -->
             </td>
-          </tr> -->
+          </tr>
         </tbody>
       </table>
     </div>
