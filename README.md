@@ -23,3 +23,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add component products
 
 1.Check list <https://app.pluralsight.com/course-player?clipId=a75eafb5-d6af-454d-8abb-21c525f25609>
+
+## Kanabn Task: Data Binding & Pipes
+
+1. Video Ref:    <https://app.pluralsight.com/course-player?clipId=b92b7bcf-9d4c-4ac2-8e6a-ee728e49f1d4>
