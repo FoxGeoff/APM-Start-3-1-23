@@ -20,4 +20,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ...
 ```
 
-1. Add component products
+### Task: Add component products
+
+1.Check list <https://app.pluralsight.com/course-player?clipId=a75eafb5-d6af-454d-8abb-21c525f25609>
