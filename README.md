@@ -84,16 +84,16 @@ listFilter = "cart";
   declarations: [
     AppComponent,
     ProductsComponent,
-    ConvertToSpaces
+    ConvertToSpacesPipe
   ],
 
-// file: convert.to.spaces.ts
+// file: convert.to.spaces.pipe.ts
 import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'convertToSpaces'
+  name: 'convertToSpacesPipe'
 })
-export class ConvertToSpaces implements PipeTransform {
+export class ConvertToSpacesPipe implements PipeTransform {
 
   transform(value: string, character: string) {
     return value.replace(character, ' ');
