@@ -68,7 +68,7 @@ import { FormsModule } from '@angular/forms';
 listFilter = "cart";
 ```
 
-1. Check list for data binding<https://app.pluralsight.com/course-player?clipId=d920a2c3-698c-45a0-9c50-1cbd5d404dcf> 
+1. Check list for data binding<https://app.pluralsight.com/course-player?clipId=d920a2c3-698c-45a0-9c50-1cbd5d404dcf>
 
 ## Kanban Task: More Components (video)
 
