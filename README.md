@@ -36,3 +36,10 @@ Examples, property binding one way component>template:
 <input type='text' [disabled]='isDisabled'>
 <img src='http://myImage.org/{{productImage.Url}}'>
 ```
+
+Example, event binding
+
+```html
+
+<button (click)= toggleImg()>{{ showImage ? "Hide" : "Show" }} Image</button>
+```

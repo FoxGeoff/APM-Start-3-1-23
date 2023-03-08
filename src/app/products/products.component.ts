@@ -138,10 +138,8 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleImage(): boolean {
-    return true;
+  toggleImage(): void {
+    this.showImage = ! this.showImage;
   }
-
-
 
 }
