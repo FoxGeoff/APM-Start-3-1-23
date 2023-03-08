@@ -16,7 +16,7 @@
     </div>
     <div class="table-responsive">
       <table class="table" *ngIf="products.length">
-        <thead>
+        <thead class="thead">
           <tr>
             <th>
               <button class="btn btn-primary" (click)="toggleImage()">
@@ -50,10 +50,7 @@
               </a>
               -->
             </td>
-            <td>{{ product.productCode | lowercase }}</td>
-            <!--
             <td>{{ product.productCode | lowercase | convertToSpaces:'-' }}</td>
-            -->
             <td>{{ product.releaseDate }}</td>
             <td>{{ product.price | currency : "USD" : "symbol" : "1.2-2" }}</td>
             <td>

@@ -73,3 +73,31 @@ listFilter = "cart";
 ## Kanban Task: More Components (video)
 
 1. Ref <https://app.pluralsight.com/course-player?clipId=439ba8cf-f4ae-4c2c-b88b-a7b633b2cf58>
+
+### Task: Add custom pipe 'converToSpaces'
+
+1. Custom Pipe
+
+```typescript
+// add to app.module.ts
+@NgModule({
+  declarations: [
+    AppComponent,
+    ProductsComponent,
+    ConvertToSpaces
+  ],
+
+// file: convert.to.spaces.ts
+import { Pipe, PipeTransform } from "@angular/core";
+
+@Pipe({
+  name: 'convertToSpaces'
+})
+export class ConvertToSpaces implements PipeTransform {
+
+  transform(value: string, character: string) {
+    return value.replace(character, ' ');
+  }
+
+}
+```
