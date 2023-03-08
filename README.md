@@ -43,3 +43,29 @@ Example, event binding
 
 <button (click)= toggleImg()>{{ showImage ? "Hide" : "Show" }} Image</button>
 ```
+
+Example, Two-way binding
+
+1. Ref; <https://app.pluralsight.com/course-player?clipId=bc676b41-bf98-4489-a14d-4b4a4455ea7b>
+2. time @0.05/4.55
+
+```html
+<!--  Add formsModuel to module for ngModel obj -->
+<input type="text" [(ngModel)]="listFilter" />
+```
+
+```typescript
+...
+import { FormsModule } from '@angular/forms';
+...
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+```
+
+```typescript
+listFilter = "cart";
+```
+
+1. Check list for data binding<https://app.pluralsight.com/course-player?clipId=d920a2c3-698c-45a0-9c50-1cbd5d404dcf> l
