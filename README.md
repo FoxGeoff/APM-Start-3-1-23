@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 4. PS Courses: "Angular: Reactive Forms"
 5. PS Courses HTTP & CRUD: "RxJS in Angular: Reactive Development"
 6. PS Courses HTTP & CRUD: "RxJS Observables"
+7. PS Course: Angular HTTP Communication"
+8. PS Course: Intermediate HTTP Techniques
 
 ### Task: Add Bootstrap and font-aweswome
 
