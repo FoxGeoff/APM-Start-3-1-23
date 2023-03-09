@@ -131,3 +131,5 @@ set amount(value: number) {
     );
   }
 ```
+
+1. Checklist <https://app.pluralsight.com/course-player?clipId=262d5f1d-6b75-4473-9cf0-664f40b6037a>
