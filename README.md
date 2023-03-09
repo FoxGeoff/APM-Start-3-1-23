@@ -188,5 +188,28 @@ getProducts(): Observable<IProduct[]> {
   }
 ```
 
-1. Check List Ref <https://app.pluralsight.com/course-player?clipId=b78f40e0-299c-40ff-b546-dd407c695368>
+### Task: Unsubscribe
 
+1. Ref: <https://app.pluralsight.com/course-player?clipId=170f83a9-48e4-42ce-94ce-5d9bae38b714>
+
+```typescript
+...
+sub!: Subscription;
+...
+ ngOnInit(): void {
+     this.sub = this.prodService.getProducts().subscribe({
+      next: (data) => {
+        this.products = data;
+        this.filteredProducts = this.products;
+      },
+      error: (error) => console.log(`Error getting data ${error}`),
+      complete: () => console.log(`GET products completed`)
+    });
+  }
+
+  ngOnDestroy():void {
+    this.sub.unsubscribe();
+  }
+```
+
+1. Check List Ref <https://app.pluralsight.com/course-player?clipId=b78f40e0-299c-40ff-b546-dd407c695368>
