@@ -187,3 +187,6 @@ getProducts(): Observable<IProduct[]> {
     return throwError(() => errorMsg);
   }
 ```
+
+1. Check List Ref <https://app.pluralsight.com/course-player?clipId=b78f40e0-299c-40ff-b546-dd407c695368>
+
