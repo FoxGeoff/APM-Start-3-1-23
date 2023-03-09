@@ -47,7 +47,7 @@ export class ProductsComponent implements OnInit {
       },
       error: (error) => console.log(`Error getting data ${error}`),
       complete: () => console.log(`GET products completed`)
-    })
+    });
   }
 
   toggleImage(): void {
