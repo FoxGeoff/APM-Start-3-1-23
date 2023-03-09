@@ -101,3 +101,33 @@ export class ConvertToSpacesPipe implements PipeTransform {
 
 }
 ```
+
+### Task: Getters and Setters (Video)
+
+1. Reference: <https://app.pluralsight.com/course-player?clipId=12e97abe-1601-4488-ac72-2744a8042183>
+
+```typescript
+private _amount:number = 0;
+
+get amount():number {
+  //process the amount
+  //return amount from private storage
+  return this._amount;
+}
+set amount(value: number) {
+  //process the amount
+  // retain the amount in private storage
+  this._amount = value;
+}
+```
+
+1. Code to perform filtering
+
+```typescript
+  performFilter(filterBy: string): IProduct[] {
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.products.filter((products: IProduct) =>
+      products.productName.toLocaleLowerCase().includes(filterBy)
+    );
+  }
+```
