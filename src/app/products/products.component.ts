@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { IProduct } from './product';
+import { ProductService } from './product.service';
 
 @Component({
   selector: 'pm-products',
@@ -9,7 +10,7 @@ import { IProduct } from './product';
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private prodService: ProductService) { }
 
   pageTitle = 'Product List';
   imageWidth = 50;
@@ -35,7 +36,8 @@ export class ProductsComponent implements OnInit {
   }
 
   filteredProducts: IProduct[] = []
-  products: IProduct[] = [
+  products: IProduct[] = [];
+  /*
     {
       "productId": 1,
       "productName": "Leaf Rake",
@@ -86,9 +88,11 @@ export class ProductsComponent implements OnInit {
       "starRating": 4.6,
       "imageUrl": "assets/images/xbox-controller.png"
     }
-  ];
+  ]; */
 
   ngOnInit(): void {
+    this.products = this.prodService.getProducts();
+    this.filteredProducts = this.products;
   }
 
   toggleImage(): void {

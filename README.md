@@ -133,3 +133,12 @@ set amount(value: number) {
 ```
 
 1. Checklist <https://app.pluralsight.com/course-player?clipId=262d5f1d-6b75-4473-9cf0-664f40b6037a>
+
+## Kanban Task: Building nested components (Video)
+
+1. Ref: <https://app.pluralsight.com/course-player?clipId=29fd6ad0-7b39-4220-b0f8-4d968d061a32>
+2. TBD Work In Progress
+
+## Kanban Task: Services and Dependency Injection (Video)
+
+1. Add the filtered list of products using the service
