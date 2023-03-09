@@ -143,3 +143,21 @@ set amount(value: number) {
 
 1. Add the filtered list of products using the service
 2. Check list Ref: <https://app.pluralsight.com/course-player?clipId=7d5f8af5-7065-4c54-b5f7-15c0ac5452a0>
+
+## Kanban Task: Retrieving Data Using HTTP
+
+### Task: Setup http GET request
+
+```typescript
+// current recommended format using anonymous functions
+  ngOnInit(): void {
+    this.prodService.getProducts().subscribe({
+      next: (data) => {
+        this.products = data;
+        this.filteredProducts = this.products;
+      },
+      error: (error) => console.log(`Error getting data ${error}`),
+      complete: () => console.log(`GET products completed`)
+    })
+  }
+```
