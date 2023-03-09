@@ -7,6 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Revision 3-1-2023
 2. Check list: <https://app.pluralsight.com/course-player?clipId=dda8d63d-d942-404c-93b8-f6cfc342a309>
 3. Something went wrong <https://app.pluralsight.com/course-player?clipId=17a0d977-4b3f-430a-ad00-3495ecfdece9>
+4. PS Courses: "Angular: Reactive Forms"
+5. PS Courses HTTP & CRUD: "RxJS in Angular: Reactive Development"
+6. PS Courses HTTP & CRUD: "RxJS Observables"
 
 ### Task: Add Bootstrap and font-aweswome
 
