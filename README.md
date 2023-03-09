@@ -142,3 +142,4 @@ set amount(value: number) {
 ## Kanban Task: Services and Dependency Injection (Video)
 
 1. Add the filtered list of products using the service
+2. Check list Ref: <https://app.pluralsight.com/course-player?clipId=7d5f8af5-7065-4c54-b5f7-15c0ac5452a0>
